@@ -1,6 +1,7 @@
 
 table {
     color: green;
+    color: blue;
 }
 
 /* overrides the previous color for this selector */
@@ -10,9 +11,9 @@ table {
 }
 
 tr {
-    border-color: green;
+    border-color: blue;
     border-width: 5px;
-    border: 1px solid green;
+    border: 1px solid blue;
     border-style: dotted;
 }
 
@@ -38,7 +39,7 @@ body {
 }
 
 ul ul {
-    color: green;
+    color: blue;
 }
 
 .second-list {
