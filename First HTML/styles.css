@@ -5,7 +5,7 @@ table {
 
 /* overrides the previous color for this selector */
 table {
-    color: green;
+    color: rgb(128, 0, 0);
     font-family: "Quicksand", sans-serif;
 }
 
