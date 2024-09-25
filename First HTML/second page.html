@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <!-- ctrl + / (windows) or cmd + / (mac) -->
+<!-- The head tag contains the metadata of the web page.
+ (metadata is data about data - in this case, data about the code info that we're sending) -->
+<head>
+    <!-- This is the name of the browser tab -->
+    <title>Cool Page!!!</title>
+    <!-- Linking the css file
+     rel is always "stylesheet" and the href is the name (including extension) of the css file. -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<!-- This is where the displayed content goes -->
+<body>
+    <!-- 
+    This
+    is
+    a
+    multiline
+    comment
+    -->
+<!-- This is the main heading -->
+<h1>Hello!</h1>
+<!-- This is a subheading of a main heading -->
+<h2 class="yellow">Welcome</h2>
+<!-- This is a code comment -->
+
+<!-- This is a new paragraph -->
+<p class="large">Hello!</p>
+<p>Greetings!</p>
+<p class="yellow large">Dia dhuit!</p>
+
+<!-- This is a link to another web page -->
+<a href="hello.html"> <!-- href is the attribute that says where the link will lead -->
+    <!-- This is the content that you need to click on to activate the link -->
+    This is the original page.
+</a>
+<a href="test/3rd page.html">
+    This is the 3rd page.
+</a>
+
+<!-- unordered list - bullet points -->
+<ul>
+    <!-- list item -->
+    <li>
+        Thing 1
+        <ul>
+            <li>Subpoint</li>
+        </ul>
+    </li>
+    <li class="yellow">Next thing</li>
+    <li>Final item</li>
+</ul>
+<p>List separator</p>
+<ul class="second-list">
+    <li>Second ul</li>
+</ul>
+
+<!-- Ordered list - numberings -->
+<ol>
+    <li>Only item</li>
+</ol>
+
+
+<!-- <sam>Hello</sam> -->
+<a href="https://moodle.cct.ie"><h2>Status</h2>How are you?</a>
+
+<!-- action: where the data is going to go. 
+    method: this is the HTTP type of request that is being sent-->
+<form action="https://www.google.ie" method="get">
+    <!-- for: associates a label with an input name -->
+    <label for="username">Username</label>
+    <input type="text" name="username">
+
+    <label for="password">Password</label>
+    <input type="password" name="password">
+
+    <input type="radio" name="radio1">
+    <input type="radio"  name="radio2">
+    <input type="radio"  name="radio1">
+    <input type="radio"  name="radio2">
+    <textarea name="" cols="25"></textarea>
+    <input type="time">
+    <!-- <input type="submit"> -->
+    <button type="submit">This is a different submut button</button>
+</form> 
+
+<table>
+    <tr>
+        <!-- table headings -->
+        <th>Day</th>
+        <th>Class</th>
+    </tr>
+    <!-- table rows -->
+    <tr>
+        <!-- data in the rows ie columns -->
+        <td>Monday</td>
+        <td>Programming and Maths</td>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td class="yellow">Fullstack A</td>
+    </tr>
+</table>
+
+<button>other button</button>
+<!-- This tag is for displaying images. This is self-closing: we do not need a corresponding closing img tag -->
+<img src="https://media.4-paws.org/1/e/d/6/1ed6da75afe37d82757142dc7c6633a532f53a7d/VIER%20PFOTEN_2019-03-15_001-2886x1999-1920x1330.jpg" alt="Anne Hannan Profile Picture">
+<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6yTczAtGMdlHxKZ7RJbUq-kFkAsU2vd1uPw&s">
+    <img src="kitten.jfif" alt="Kitten!"/><!-- alt defines what is displayed if the image cannot load, and how screen readers will describe the image -->
+</a>
+
+</body>
+</html>
+
+<!-- Practice!
+Make a website (HTML and some basic CSS) for your pet/favourite show/film/game/music 
+-->

@@ -1,0 +1,55 @@
+
+table {
+    color: red;
+}
+
+/* overrides the previous color for this selector */
+table {
+    color: green;
+    font-family: "Quicksand", sans-serif;
+}
+
+tr {
+    border-color: black;
+    border-width: 5px;
+    border: 1px solid black;
+    border-style: dotted;
+}
+
+th {
+    color: blue;
+    font-size: 32px;
+}
+
+.yellow {
+    color: yellow;
+    background-color: aqua;
+    border-style: dotted;
+    padding: 10px;
+    margin: 0px;
+}
+
+body {
+    margin: 10px;
+}
+
+.large {
+    font-size: 32px;
+}
+
+ul ul {
+    color: orange;
+}
+
+.second-list {
+
+}
+
+/* 
+selector(s) {
+    property: value;
+    property: value;
+    property: value;
+    property: value;
+}
+*/
