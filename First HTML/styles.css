@@ -1,29 +1,29 @@
 
 table {
-    color: yellow;
+    color: blue;
 }
 
 /* overrides the previous color for this selector */
 table {
-    color: yellow;
+    color: blue;
     font-family: "Quicksand", sans-serif;
 }
 
 tr {
-    border-color: yellow;
+    border-color: blue;
     border-width: 5px;
-    border: 1px solid yellow;
+    border: 1px solid blue;
     border-style: dotted;
 }
 
 th {
-    color: yellow;
+    color: blue;
     font-size: 32px;
 }
 
 .yellow {
-    color: yellow;
-    background-color: yellow;
+    color: blue;
+    background-color: blue;
     border-style: dotted;
     padding: 10px;
     margin: 0px;
@@ -38,7 +38,7 @@ body {
 }
 
 ul ul {
-    color: yellow;
+    color: blue;
 }
 
 .second-list {
